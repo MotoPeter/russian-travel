@@ -6,10 +6,9 @@
   line-height: 1.17;
   line-height: 96%;
   align: right;
-  text-decoration: none;
 }
 
 .lang__lang-link:first-child {
-  margin-right: 15px;
+  margin-right: 19px;
   text-decoration: underline;
-}
+ }

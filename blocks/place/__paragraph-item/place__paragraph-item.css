@@ -1,0 +1,12 @@
+.plase__paragraph-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 161%;
+  margin: 0;
+}
+
+.plase__paragraph-item:first-child {
+  margin-bottom: 27px;
+}
