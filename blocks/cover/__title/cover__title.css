@@ -1,8 +1,10 @@
-.place__title {
-  max-width: 460px;
+.cover__title {
+  max-width: 560px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
+  z-index: 1;
+  text-align: center;
   margin: 0;
 }
