@@ -1,3 +1,15 @@
 .header__lang {
   margin: 49px 48px 0 0;
 }
+
+@media screen and (max-width: 800px) {
+  .header__lang {
+    margin: 48px 24px 0 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header__lang {
+    margin: 31px 16px 0 0;
+  }
+}

@@ -1,13 +1,5 @@
 .cover {
-  max-width: 1184px;
-  aspect-ratio: 1184 / 740;
-  background-size: 100%;
-  background-image: url(../../images/cover-railway-crossing.png);  
   margin: 90px auto 92px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  gap: 32px;
+  max-width: 1184px;
+  aspect-ratio: 1184 / 740; 
 }

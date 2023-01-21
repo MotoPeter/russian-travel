@@ -1,11 +1,29 @@
 .cover__overlay {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
   width: 100%;
   height: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.3; 
+  background-size: 100%;
+  background-image: url(../../../images/cover-railway-crossing.png); 
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
 }
 
-.cover__overlay:hover {
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover::before {
   opacity: 0.8;
 }

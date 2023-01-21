@@ -1,4 +1,9 @@
 .lead__image {
   margin: 63px auto 0;
+}
 
+@media screen and (max-width: 1100px) {
+  .lead__image {
+    margin-top: 55px;
+  }
 }

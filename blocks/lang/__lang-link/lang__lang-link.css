@@ -3,10 +3,16 @@
   font-style: normal;
   font-size: 24px;
   line-height: 1.17;
-  line-height: 96%;
   align: right;
 }
 
 .lang__lang-link:first-child {
   text-decoration: underline;
  }
+
+ @media screen and (max-width: 350px) {
+  .lang__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
