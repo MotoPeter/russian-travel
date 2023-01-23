@@ -3,3 +3,9 @@
   max-width: 1184px;
   aspect-ratio: 1184 / 740; 
 }
+
+@media screen and (max-width: 800px) {
+  .cover {
+    margin: 64px auto 88px;
+  }
+}

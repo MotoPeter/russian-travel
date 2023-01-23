@@ -7,3 +7,9 @@
     margin-top: 55px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}
