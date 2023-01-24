@@ -10,3 +10,10 @@
 .link-list__item:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 400px) {
+  .link-list__item {
+    font-size: 24px;
+    line-height: 1;
+  }  
+}

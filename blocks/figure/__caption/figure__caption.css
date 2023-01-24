@@ -16,5 +16,6 @@
 @media screen and (max-width: 400px) {
   .figure__caption {
     margin-left: 15px;
+    margin-top: 7px;
   }
 }
