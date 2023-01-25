@@ -8,10 +8,15 @@
   align-self: end;
 }
 
+@media screen and (max-width: 750px) {
+  .footer__author {
+    margin-top: 48px;
+    align-self: start;
+  }  
+}
+
 @media screen and (max-width: 400px) {
   .footer__author {
     line-height: 1;
-    margin-top: 48px;
-    align-self: start;
   }  
 }

@@ -11,7 +11,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   .link-list__item {
     font-size: 24px;
     line-height: 1;
