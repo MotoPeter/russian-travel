@@ -22,4 +22,4 @@
 * Добавить смену языка
 
 * [**Посмотреть макет**](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-* [**Проект в Github**](https://github.com/MotoPeter/russian-travel.git)
+* [**Посмотреть проект**](https://motopeter.github.io/russian-travel/index.html)

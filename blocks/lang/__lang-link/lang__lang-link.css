@@ -6,6 +6,12 @@
   text-align: right;
 }
 
+@media (any-hover: hover) {
+  .lang__lang-link:hover {
+    opacity: 0.8;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .lang__lang-link {
     font-size: 18px;
