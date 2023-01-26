@@ -1,4 +1,4 @@
-.plase__paragraph {
+.place__paragraph {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -6,26 +6,26 @@
   margin: 0;
 }
 
-.plase__paragraph:first-child {
+.place__paragraph:first-child {
   margin-bottom: 27px;
 }
 
 @media screen and (max-width: 800px) {
-  .plase__paragraph {
+  .place__paragraph {
     font-size: 16px;
     line-height: 163%;
   }
-  .plase__paragraph:first-child {
+  .place__paragraph:first-child {
     margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .plase__paragraph {
+  .place__paragraph {
     font-size: 16px;
     line-height: 163%;
   }
-  .plase__paragraph:first-child {
+  .place__paragraph:first-child {
     margin-bottom: 24px;
   }
 }
