@@ -7,8 +7,10 @@
   line-height: 1.13;
 }
 
-.link-list__item:hover {
-  opacity: 0.8;
+@media (any-hover: hover) {
+  .link-list__item:hover {
+    opacity: 0.8;
+  }
 }
 
 @media screen and (max-width: 550px) {
