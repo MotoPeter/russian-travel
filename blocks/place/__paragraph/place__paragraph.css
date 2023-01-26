@@ -1,17 +1,31 @@
-.place__paragraph {
-  max-width: 484px;  
+.plase__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 161%;
+  margin: 0;
 }
 
-@media screen and (max-width: 550px) {
-  .place__paragraph {
-    margin-left: 16px;
-    margin-right: 16px;
+.plase__paragraph:first-child {
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 800px) {
+  .plase__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+  .plase__paragraph:first-child {
+    margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .place__paragraph {
-    max-width: 288px;
-    margin: 0 auto;
+  .plase__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+  .plase__paragraph:first-child {
+    margin-bottom: 24px;
   }
 }
